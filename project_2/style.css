@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    background: url("./photo/pict/header_bg.png") no-repeat;
+    overflow-x:hidden;
+    background-size: cover;
+}
+.slova_header nav{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 80px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+li{ list-style:none;
+    margin: 0 60px;
+}
+.slova_header li a:hover {
+    cursor: pointer;
+    color: gray;
+  }
+.steering_wheel img{
+    display: flex;
+    justify-content:center;
+}
+.slova_header_2 nav{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 80px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+li{ list-style:none;
+    margin: 0 60px;
+    flex-direction: flex-end;
+}
+.slova_header_2 li a:hover {
+    cursor: pointer;
+    color: gray;
+}
+.text_time {
+    display: flex;
+    margin: -500px -1800px;
+    justify-content:flex-start;
+    writing-mode: tb-rl;
+    transform:rotate(180deg);
+    color: rgb(255, 255, 255);
+ }    
